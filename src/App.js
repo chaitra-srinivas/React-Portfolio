@@ -11,14 +11,17 @@ import './App.css';
 
 function App() {
   return (
-    <main>
-      <Header />
+    <main className="bg-gray-100 rounded-xl p-8 dark:bg-gray-800">
+      <h1 className="text-3xl font-bold underline">
+      Hello world!
+    </h1>
+      {/* <Header />
       <Navigation />
       <About />
       <Projects />
       <Skills />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
