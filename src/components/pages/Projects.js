@@ -2,9 +2,10 @@ import React from "react";
 export default function Projects() {
   return (
     <section id='projects'>
+         <h1>Projects Page</h1>
       <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center'>
-        <h1>Projects Page</h1>
-        <p className='mb-8 leading-relaxed'>
+       
+        <p className='card bac'>
           Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
           Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
           dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci,

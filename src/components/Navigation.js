@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <nav className='flex justify-between items-center'>
+    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <nav className='container flex justify-between  mx-auto  p-5 flex-col md:flex-row items-center'>
       <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
         Chaitra
       </h1>
@@ -41,5 +42,6 @@ export default function Navigation({ currentPage, handlePageChange }) {
         </li>
       </ul>
     </nav>
+    </header>
   );
 }
