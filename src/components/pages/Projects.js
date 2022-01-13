@@ -1,27 +1,48 @@
 import React from "react";
+import { projects } from "../../data";
+
+console.log(projects);
+
 export default function Projects() {
   return (
-    <section id='projects'>
-         <h1>Projects Page</h1>
-      <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center'>
-       
-        <p className='card bac'>
-          Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-          Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-          dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci,
-          finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta
-          dictum nunc, sed pretium risus rutrum eget. Nam consequat, ligula in
-          faucibus vestibulum, nisi justo laoreet risus, luctus luctus mi lacus
-          sit amet libero. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Mauris pretium condimentum
-          tellus eget lobortis. Interdum et malesuada fames ac ante ipsum primis
-          in faucibus. Donec placerat accumsan mi, ut congue neque placerat eu.
-          Donec nec ipsum in velit pellentesque vehicula sit amet at augue.
-          Maecenas aliquam bibendum congue. Pellentesque semper, lectus non
-          ullamcorper iaculis, est ligula suscipit velit, sed bibendum turpis
-          dui in sapien.
-        </p>
+    <section id='projects' className="text-gray-400 bg-gray-900 body-font">
+         
+      <div className='container px-5 py-10 mx-auto text-center lg:px-40'>
+      <div className="flex flex-col w-full mb-20">
+     
+          <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
+           Some of my work
+          </h1>
+          
+        </div>
+        <div className="flex flex-wrap -m-4">
+          {projects.map((project) => (
+             
+            <a
+              href={project.link}
+              key={project.image}
+              className="sm:w-1/2 w-100 p-4">
+              <div className="flex relative">
+                <img
+                  alt="gallery"
+                  className="absolute inset-0 w-full h-full object-cover object-center"
+                  src={project.image}
+                />
+                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                    {project.subtitle}
+                  </h2>
+                  <h1 className="title-font text-lg font-medium text-white mb-3">
+                    {project.title}
+                  </h1>
+                  <p className="leading-relaxed">{project.description}</p>
+                </div>
+              </div>
+            </a>
+          ))}
+        </div>
       </div>
+     
     </section>
   );
 }
