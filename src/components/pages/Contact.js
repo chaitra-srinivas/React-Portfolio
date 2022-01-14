@@ -6,6 +6,7 @@ function Contact() {
   const [userName, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [successMessage, setSuccessMessage] = useState("");
 
   const handleInputChange = (e) => {
     const { target } = e;
@@ -16,7 +17,7 @@ function Contact() {
       setEmail(inputValue);
     } else if (inputType === "userName") {
       setUserName(inputValue);
-    }  else if (inputType === "message"){
+    } else if (inputType === "message") {
       setMessage(inputValue);
     }
   };
@@ -38,20 +39,31 @@ function Contact() {
       setErrorMessage("Please enter a valid email");
       return;
     }
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
+
+    if (errorMessage === "") {
+      setErrorMessage("");
+      setSuccessMessage(
+        "Thank you for the details. I will get back to you soon!"
+      );
+      setUserName("");
+      setMessage("");
+      setEmail("");
+      return;
+    }
     setUserName("");
     setMessage("");
     setEmail("");
     setErrorMessage("");
+    setSuccessMessage("");
   };
 
   return (
-    <section id='contact' className='container px-5 py-10 mx-auto text-center'>
-      <form className='form flex flex-col md:mt-0 w-full md:py-10 mt-8 md:mt-0 text-center'>
+    <section id='contact' className='flex flex-col justify-center items-center'>
+      <form className='px-5 pt-6 pb-8 m-10 w-1/3'>
         <div className='mb-4'>
           <label
             htmlFor='name'
-            className='leading-7 text-sm text-gray-400 px-5'>
+            className='block text-gray-200 text-sm font-bold mb-2'>
             Name
           </label>
           <input
@@ -60,12 +72,13 @@ function Contact() {
             onChange={handleInputChange}
             type='text'
             placeholder='Your name'
+            className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
           />
         </div>
         <div className='relative mb-4'>
           <label
             htmlFor='email'
-            className='leading-7 text-sm text-gray-400 px-5'>
+            className='block text-gray-200 text-sm font-bold mb-2'>
             Email
           </label>
           <input
@@ -74,12 +87,13 @@ function Contact() {
             onChange={handleInputChange}
             type='email'
             placeholder='Your email'
+            className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
           />
         </div>
         <div className='relative mb-4'>
           <label
             htmlFor='Message'
-            className='leading-7 text-sm text-gray-400 px-5'>
+            className='block text-gray-200 text-sm font-bold mb-2'>
             Message
           </label>
           <textarea
@@ -88,22 +102,30 @@ function Contact() {
             onChange={handleInputChange}
             type='textarea'
             placeholder='Message'
-            rows="3" cols="23"
-            maxLength="3000"
-        />
+            rows='3'
+            cols='23'
+            maxLength='3000'
+            className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
+          />
         </div>
         <button
           type='button'
-          className='text-black bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg'
+          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button'
           onClick={handleFormSubmit}>
           Submit
         </button>
+
+        {errorMessage && (
+          <div>
+            <p className='error-text text-red-700 text-md'>{errorMessage}</p>
+          </div>
+        )}
+        {successMessage && (
+          <div>
+            <p className='error-text text-blue-900 text-md'>{successMessage}</p>
+          </div>
+        )}
       </form>
-      {errorMessage && (
-        <div>
-          <p className='error-text'>{errorMessage}</p>
-        </div>
-      )}
     </section>
   );
 }

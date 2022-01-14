@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <header className="bg-gray-800 md:sticky top-0 z-10">
+    <header className="bg-blue-900 md:sticky top-0 z-10">
     <nav className='container flex justify-between  mx-auto  p-5 flex-col md:flex-row items-center'>
       <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
         Chaitra
