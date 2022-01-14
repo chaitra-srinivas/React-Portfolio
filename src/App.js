@@ -34,19 +34,18 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <main className='text-gray-400'>
-     {/*     <Header /> */}
-      <div>
-   
-        {/* We are passing the currentPage from state and the function to update it */}
+    <main className='text-gray-700 '>
+       <div  className="h-screen bg-gray-200 mb-auto" >
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
-        {/* Here we are calling the renderPage method which will return a component  */}
         {renderPage()}
+        </div>
+        <div>
         <Footer />
-      </div>
+        </div>
+      
       
     </main>
   );
