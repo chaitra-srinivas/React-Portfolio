@@ -2,54 +2,56 @@ import React, { useState } from "react";
 import { validateEmail } from "../../utils/helpers";
 
 function Contact() {
-  // State variables for fields in the form and initialize them to an empty string
-  // Create state variables for the fields in the form
-  // We are also setting their initial values to an empty string
   const [email, setEmail] = useState("");
   const [userName, setUserName] = useState("");
   const [message, setMessage] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleInputChange = (e) => {
-    // Getting the value and name of the input which triggered the change
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, username, and password
     if (inputType === "email") {
       setEmail(inputValue);
     } else if (inputType === "userName") {
       setUserName(inputValue);
-    } else if (inputType === "message") {
+    }  else if (inputType === "message"){
       setMessage(inputValue);
     }
   };
 
   const handleFormSubmit = (e) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage("Email or username is invalid");
-      // We want to exit out of this code block if something is wrong so that the user can correct it
+    if (!email || !userName) {
+      setErrorMessage("Email and Name are required");
       return;
-    
     }
-     // If everything goes according to plan, we want to clear out the input after a successful registration.
+
+    if (!message) {
+      setErrorMessage("Message is required");
+      return;
+    }
+
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email");
+      return;
+    }
+    // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName("");
     setMessage("");
     setEmail("");
-    setErrorMessage('');
+    setErrorMessage("");
   };
 
-
   return (
-    <section id='contact' className="container px-5 py-10 mx-auto text-center">
+    <section id='contact' className='container px-5 py-10 mx-auto text-center'>
       <form className='form flex flex-col md:mt-0 w-full md:py-10 mt-8 md:mt-0 text-center'>
         <div className='mb-4'>
-          <label htmlFor='name' className='leading-7 text-sm text-gray-400 px-5'>
+          <label
+            htmlFor='name'
+            className='leading-7 text-sm text-gray-400 px-5'>
             Name
           </label>
           <input
@@ -61,7 +63,9 @@ function Contact() {
           />
         </div>
         <div className='relative mb-4'>
-          <label htmlFor='email' className='leading-7 text-sm text-gray-400 px-5'>
+          <label
+            htmlFor='email'
+            className='leading-7 text-sm text-gray-400 px-5'>
             Email
           </label>
           <input
@@ -73,18 +77,21 @@ function Contact() {
           />
         </div>
         <div className='relative mb-4'>
-          <label htmlFor='Message' className='leading-7 text-sm text-gray-400 px-5'>
+          <label
+            htmlFor='Message'
+            className='leading-7 text-sm text-gray-400 px-5'>
             Message
           </label>
-          <input
+          <textarea
             value={message}
             name='message'
             onChange={handleInputChange}
-            type='text'
+            type='textarea'
             placeholder='Message'
-          />
+            rows="3" cols="23"
+            maxLength="3000"
+        />
         </div>
-
         <button
           type='button'
           className='text-black bg-gray-200 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 rounded text-lg'
