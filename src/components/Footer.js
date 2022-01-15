@@ -1,9 +1,19 @@
+/* const style = {
+  footerStyle: {
+    position: "relative",
+    margintop: "-150px" 
+    height: "150px",
+    clear: "both",
+    paddingtop: "20px",
+  },
+}; */
+
 export default function Footer() {
   return (
-    <footer id='footer' class='mt-6 flex flex-col items-center'>
-      <div class='sm:w-2/3 text-center py-4'>
+    <footer id='footer' className="flex flex-col justify-center items-center" >
+       <div class='sm:w-2/3 text-center'>
         <ul className='flex justify-between items-center space-x-7 text-gray-500'>
-          <li> Github </li>
+          <li>Github</li>
           <li>Twitter</li>
           <li>Stack Overflow</li>
         </ul>
@@ -11,6 +21,6 @@ export default function Footer() {
           © 2022 by Chaitra Srinivasamurthy
         </p>
       </div>
-    </footer>
+    </footer> 
   );
 }

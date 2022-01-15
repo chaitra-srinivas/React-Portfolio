@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Home from "./components/pages/Home"
+import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
@@ -34,19 +34,19 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <main className='text-gray-700 '>
-       <div  className="h-screen bg-gray-200 mb-auto" >
+    <main className='text-gray-700'>
+      <div className='h-screen bg-gray-200 mb-auto'>
         <Navigation
           currentPage={currentPage}
           handlePageChange={handlePageChange}
         />
+        <div className="">
         {renderPage()}
         </div>
-        <div>
+      </div>
+      <div className="container"> 
         <Footer />
-        </div>
-      
-      
+      </div>
     </main>
   );
 }

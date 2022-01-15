@@ -1,7 +1,7 @@
 
 export default function Home() {
     return (
-      <section id="home">
+      <section id="home" className='flex flex-col justify-center items-center'>
         <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
         <h1>Home Page</h1>
             <p className="mb-8 leading-relaxed">

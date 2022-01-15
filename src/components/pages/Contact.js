@@ -59,11 +59,11 @@ function Contact() {
 
   return (
     <section id='contact' className='flex flex-col justify-center items-center'>
-      <form className='px-5 pt-6 pb-8 m-10 w-1/3'>
+      <form className='px-5 pt-6 pb-3 w-1/3'>
         <div className='mb-4'>
           <label
             htmlFor='name'
-            className='block text-gray-200 text-sm font-bold mb-2'>
+            className='block text-gray-900 text-sm font-bold mb-2'>
             Name
           </label>
           <input
@@ -78,7 +78,7 @@ function Contact() {
         <div className='relative mb-4'>
           <label
             htmlFor='email'
-            className='block text-gray-200 text-sm font-bold mb-2'>
+            className='block text-gray-900 text-sm font-bold mb-2'>
             Email
           </label>
           <input
@@ -93,7 +93,7 @@ function Contact() {
         <div className='relative mb-4'>
           <label
             htmlFor='Message'
-            className='block text-gray-200 text-sm font-bold mb-2'>
+            className='block text-gray-900 text-sm font-bold mb-2'>
             Message
           </label>
           <textarea
