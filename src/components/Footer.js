@@ -1,16 +1,6 @@
-/* const style = {
-  footerStyle: {
-    position: "relative",
-    margintop: "-150px" 
-    height: "150px",
-    clear: "both",
-    paddingtop: "20px",
-  },
-}; */
-
 export default function Footer() {
   return (
-    <footer id='footer' className="flex flex-col justify-center items-center" >
+    <footer id='footer' className="flex flex-col justify-center items-center bg-gray-900 pt-5" >
        <div class='sm:w-2/3 text-center'>
         <ul className='flex justify-between items-center space-x-7 text-gray-500'>
           <li>Github</li>

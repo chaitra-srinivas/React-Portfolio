@@ -35,17 +35,17 @@ function App() {
 
   return (
     <main className='text-gray-700'>
-      <div className='h-screen bg-gray-200 mb-auto'>
-        <Navigation
-          currentPage={currentPage}
-          handlePageChange={handlePageChange}
-        />
-        <div className="">
-        {renderPage()}
+      <div className='flex flex-col min-h-screen justify-between'>
+        <div>
+          <Navigation
+            currentPage={currentPage}
+            handlePageChange={handlePageChange}
+          />
         </div>
-      </div>
-      <div className="container"> 
-        <Footer />
+        <div>{renderPage()}</div>
+        <div>
+          <Footer />
+        </div>
       </div>
     </main>
   );

@@ -10,7 +10,7 @@ export default function Projects() {
         <div className='text-center sm:text-4xl text-3xl font-medium title-font mb-4 text-white'>
           <h1>Some of my work</h1>
         </div>
-        <div className='flex flex-wrap mb-auto'>
+        <div className='flex flex-wrap'>
           {projects.map((project) => (
             <a
               href={project.link}
