@@ -3,13 +3,15 @@
 export default function About() {
   return (
     <section id='about' className='flex flex-col justify-center items-center'>
-      <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col items-center'>
-        <p className='mb-8 leading-relaxed'>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui laborum
-          quasi, incidunt dolore iste nostrum cupiditate voluptas? Laborum,
-          voluptas natus?
-        </p>
-      </div>
+   <div class="text-center">
+  <img
+    src="https://mdbcdn.b-cdn.net/img/new/avatars/8.webp"
+    class="rounded-full w-32 mb-4 mx-auto"
+    alt="Avatar"
+  />
+  <h5 class="text-xl font-medium leading-tight mb-2">John Doe</h5>
+  <p class="text-gray-500">Web designer</p>
+</div>
     </section>
   );
 }

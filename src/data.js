@@ -31,7 +31,7 @@ const projects = [
     title: "Text Editor",
     subtitle: "JavaScript, Express, IndexedDB and Webpack",
     description:
-      "Text Editor is a single page web application that runs in the browser and meets the PWA criteria. The application is installable and can function offline. This application is built using JavaScript, Express.js. IndexedDB is used for data persistance on the client side.",
+      "Text Editor is a single page web application that runs in the browser and meets the PWA criteria. Text Editor is a single page web application that runs in the browser and meets the PWA criteria. The application is installable and can function offline. This application is built using JavaScript, Express.js. IndexedDB is used for data persistance on the client side.",
     image: "./images/JATE.png",
     link: "https://sleepy-beach-16739.herokuapp.com/",
     github: "https://github.com/chaitra-srinivas/Text-Editor",
@@ -49,7 +49,7 @@ const projects = [
     title: "Weather Dashboard",
     subtitle: "JavaScript, HTML and CSS",
     description:
-      "Using this web application a user can view the current weather and a five day forecast for a particular city",
+      "Using this web application a user can view the current weather and a five day forecast for a particular city Using this web application a user can view the current weather and a five day forecast for a particular city",
     image: "./images/WeatherDashboard.png",
     link: "https://chaitra-srinivas.github.io/Weather-Dashboard/",
     github: "https://github.com/chaitra-srinivas/Weather-Dashboard",

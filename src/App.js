@@ -7,8 +7,12 @@ import Header from "./components/Header";
 import Navigation from "./components/Navigation";
 import Projects from "./components/pages/Projects";
 import Skills from "./components/pages/Skills";
+import background from "./components/pages/images/geo.png"
 
 import "./App.css";
+
+const x = `url({require("../components/pages/images/geo.png")})`;
+
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home");
@@ -34,8 +38,10 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <main className='text-gray-700'>
-      <div className='flex flex-col min-h-screen justify-between'>
+    <main className='text-gray-700' style={{ 
+      backgroundImage: `url(${background})`,
+    }}>
+      <div className='flex flex-col min-h-screen justify-between' >
         <div>
           <Navigation
             currentPage={currentPage}
