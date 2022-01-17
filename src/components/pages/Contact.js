@@ -63,7 +63,7 @@ function Contact() {
         <div className='mb-4'>
           <label
             htmlFor='name'
-            className='block text-gray-900 text-sm font-bold mb-2'>
+            className='block text-gray-300 text-sm font-bold mb-2'>
             Name
           </label>
           <input
@@ -78,7 +78,7 @@ function Contact() {
         <div className='relative mb-4'>
           <label
             htmlFor='email'
-            className='block text-gray-900 text-sm font-bold mb-2'>
+            className='block text-gray-300 text-sm font-bold mb-2'>
             Email
           </label>
           <input
@@ -93,7 +93,7 @@ function Contact() {
         <div className='relative mb-4'>
           <label
             htmlFor='Message'
-            className='block text-gray-900 text-sm font-bold mb-2'>
+            className='block text-gray-300 text-sm font-bold mb-2'>
             Message
           </label>
           <textarea
@@ -110,7 +110,7 @@ function Contact() {
         </div>
         <button
           type='button'
-          className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button'
+          className='bg-gray-500 hover:bg-gray-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button'
           onClick={handleFormSubmit}>
           Submit
         </button>
