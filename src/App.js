@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Footer from "./components/Footer";
@@ -11,12 +10,10 @@ import background from "./components/pages/images/geo.png";
 import "./App.css";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("Home");
+  const [currentPage, setCurrentPage] = useState("About");
 
   const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
-    }
+    
     if (currentPage === "About") {
       return <About />;
     }

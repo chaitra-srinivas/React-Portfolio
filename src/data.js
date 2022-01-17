@@ -22,7 +22,7 @@ const projects = [
     title: "Tech Talk",
     subtitle: "JavaScript, Express, MySQL and Handlebars",
     description:
-      "Tech Talk is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. This application is built using JavaScript, Express.js, and Sequelize as the ORM to interact with MySQL. Handlebars.js is used as the templating engine. It follows the MVC paradigm in it's architectural structure.",
+      "Tech Talk is a CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well. ",
     image: "./images/TechTalk.jpeg",
     link: "https://tech-talk-21.herokuapp.com/",
     github: "https://github.com/chaitra-srinivas/Tech-Blog",
@@ -31,7 +31,7 @@ const projects = [
     title: "Text Editor",
     subtitle: "JavaScript, Express, IndexedDB and Webpack",
     description:
-      "Text Editor is a single page web application that runs in the browser and meets the PWA criteria. Text Editor is a single page web application that runs in the browser and meets the PWA criteria. The application is installable and can function offline. This application is built using JavaScript, Express.js. IndexedDB is used for data persistance on the client side.",
+      "Text Editor is a single page web application that runs in the browser and meets the PWA criteria. The application is installable and can function offline.",
     image: "./images/JATE.jpeg",
     link: "https://sleepy-beach-16739.herokuapp.com/",
     github: "https://github.com/chaitra-srinivas/Text-Editor",
@@ -40,7 +40,7 @@ const projects = [
     title: "README Generator",
     subtitle: "JavaScript, Node.js and Inquirer package",
     description:
-      "The README Generator can be used by developers to create a professional README.md file for their project. This is a CLI application built using node.js and the npm inquirer package.",
+      "The README Generator can be used by developers to create a professional README.md file for their project.",
     image: "./images/README.jpeg",
     link: "https://github.com/chaitra-srinivas/README-Generator",
     github: "https://github.com/chaitra-srinivas/Text-Editor",
@@ -49,7 +49,7 @@ const projects = [
     title: "Weather Dashboard",
     subtitle: "JavaScript, HTML and CSS",
     description:
-      "Using this web application a user can view the current weather and a five day forecast for a particular city Using this web application a user can view the current weather and a five day forecast for a particular city",
+      "Using this web application a user can view the current weather and a five day forecast for a particular city. ",
     image: "./images/WeatherDashboard.jpeg",
     link: "https://chaitra-srinivas.github.io/Weather-Dashboard/",
     github: "https://github.com/chaitra-srinivas/Weather-Dashboard",

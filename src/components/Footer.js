@@ -8,7 +8,7 @@ export default function Footer() {
           <li><a href="https://github.com/chaitra-srinivas/" target={'_blank'} rel="noreferrer noopener"><img src={require("../components/pages/logos/GitHub-Mark-32px.png")} alt="gitHub logo"></img></a></li>
           <li><a href="https://www.linkedin.com/in/chaitramurthy/" target={'_blank'} rel="noreferrer noopener"><img src={require("../components/pages/logos/linkedin.png")} alt="linkedIn logo"></img></a></li>
         </ul>
-        <p class='text-sm text-gray-700 font-bold mb-2 mt-4'>
+        <p className='text-sm text-gray-700 font-bold mb-2 mt-4'>
           © 2022 by Chaitra Srinivasamurthy
         </p>
       </div>

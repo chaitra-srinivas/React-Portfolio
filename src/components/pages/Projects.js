@@ -7,8 +7,8 @@ export default function Projects() {
       id='projects'
       className='flex flex-col justify-center items-center'>
       <div className='px-5 py-10 lg:px-60'>
-        <div className='text-center sm:text-4xl text-3xl font-medium title-font mb-4 text-white'>
-          <h1>Some of my work</h1>
+        <div className='text-center sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-400'>
+          <h1>A sample of my work</h1>
         </div>
         <div className='flex flex-wrap'>
           {projects.map((project) => (
@@ -19,7 +19,7 @@ export default function Projects() {
               target={"_blank"} rel="noreferrer noopener">
               <div className='flex relative shadow-lg shadow-gray-100/50'>
                 <img
-                  alt='gallery'
+                  alt='project gallery'
                   className='absolute inset-0  w-full h-full object-fill object-center  '
                   src={require(`${project.image}`)}
                 />
@@ -31,7 +31,7 @@ export default function Projects() {
                     {project.subtitle}
                   </h1>
                   <a href={project.github} target={'_blank'} rel="noreferrer noopener"><img src={require("./logos/GitHub.png")} alt="gitHub logo"></img></a>
-                  <p className='leading-relaxed'>{project.description}</p>
+                  <p className='leading-relaxed text-white'>{project.description}</p>
                 </div>
               </div>
             </a>
