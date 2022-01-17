@@ -8,7 +8,7 @@ export default function Projects() {
       className='flex flex-col justify-center items-center'>
       <div className='px-5 py-10 lg:px-60'>
         <div className='text-center sm:text-4xl text-3xl font-medium title-font mb-4 text-gray-400'>
-          <h1>A sample of my work</h1>
+          <h1>Portfolio</h1>
         </div>
         <div className='flex flex-wrap'>
           {projects.map((project) => (
