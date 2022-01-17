@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <section id='about' className='flex flex-col justify-center  items-center'>
+    <section id='about' className='flex flex-col justify-center items-center'>
       <div className='justify-center'>
         <img
           src={require("../pages/images/portfolio.jpg")}
@@ -9,8 +9,8 @@ export default function About() {
         />
       </div>
       <div>
-        <h5 className='text-xl font-medium leading-tight mb-2'>John Doe</h5>
-        <p className='text-gray-500'>Web designer</p>
+        <h5 className='text-xl font-medium leading-tight mb-2 text-gray-300'>John Doe</h5>
+        <p className='text-gray-400'>Web designer</p>
       </div>
     </section>
   );

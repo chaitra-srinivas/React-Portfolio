@@ -35,7 +35,7 @@ function App() {
 
   return (
     <main
-      className='text-gray-700 bg-gray-800'
+      className='text-gray-700 bg-gray-900'
      /*  style={{
         backgroundImage: `url(${background})`,
       }}> */
