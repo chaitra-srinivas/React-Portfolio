@@ -4,6 +4,7 @@ export default function Skills() {
     <section id='skills'>
       <div className='container mx-auto flex px-10 py-20 md:flex-row flex-col justify-center items-center'>
         <h1>Skills Page</h1>
+        <h2><a href= {require("./docs/ChaitraSrinivasamurthy.pdf")} target={'_blank'} rel="noreferrer noopener">Resume</a></h2>
         <ul>
           <li>HTML5</li>
           <li>CSS</li>

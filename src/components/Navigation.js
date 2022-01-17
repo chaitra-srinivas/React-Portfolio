@@ -1,10 +1,13 @@
 import React from "react";
+import background from "./pages/images/geo.png";
 
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
-    <header className='bg-gray-900 md:sticky top-0 z-10'>
+    <header className='bg-gray-900 md:sticky top-0 z-10'  style={{
+      backgroundImage: `url(${background})`,
+    }} >
       <nav className='flex justify-between mx-auto p-5 flex-col md:flex-row items-center'>
-        <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white'>
+        <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-200'>
           Chaitra
         </h1>
         <ul className='flex justify-between items-center space-x-7 text-gray-500'>
