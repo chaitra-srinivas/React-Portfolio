@@ -1,4 +1,4 @@
-# [Portfolio]() ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+# [Portfolio](https://chaitra-srinivas.github.io/react-portfolio/) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## Overview
 
