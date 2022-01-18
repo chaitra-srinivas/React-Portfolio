@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ea30b06f.css",
+    "main.js": "/react-portfolio/static/js/main.8c988903.js",
+    "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
+    "static/media/MyFrontyard.png": "/react-portfolio/static/media/MyFrontyard.0a81c26ef487fac01e47.png",
+    "static/media/EntertainementHub.png": "/react-portfolio/static/media/EntertainementHub.dea0fb1afbd4e326bf7b.png",
+    "static/media/README.png": "/react-portfolio/static/media/README.bda773a59a4cb207d0ee.png",
+    "static/media/geo.png": "/react-portfolio/static/media/geo.2801e98404b28f455712.png",
+    "static/media/WeatherDashboard.png": "/react-portfolio/static/media/WeatherDashboard.ac5196883f1e4a267273.png",
+    "static/media/TechTalk.png": "/react-portfolio/static/media/TechTalk.70300504e00a4a8f01b2.png",
+    "static/media/EntertainementHub.jpeg": "/react-portfolio/static/media/EntertainementHub.cc49ded79d46baa3ecd3.jpeg",
+    "static/media/MyFrontyard.jpeg": "/react-portfolio/static/media/MyFrontyard.f40c00b7f6e908a824d5.jpeg",
+    "static/media/README.jpeg": "/react-portfolio/static/media/README.ab0741a97664098d2967.jpeg",
+    "static/media/TechTalk.jpeg": "/react-portfolio/static/media/TechTalk.244593f71933a88f985e.jpeg",
+    "static/media/JATE.png": "/react-portfolio/static/media/JATE.53c6d8a5063137fc66a8.png",
+    "static/media/WeatherDashboard.jpeg": "/react-portfolio/static/media/WeatherDashboard.302aa8e3974eb776cc92.jpeg",
+    "static/media/Smiling.png": "/react-portfolio/static/media/Smiling.8af23bd28583c4cc1f1b.png",
+    "static/media/ChaitraSrinivasamurthy.pdf": "/react-portfolio/static/media/ChaitraSrinivasamurthy.1246b8e177a533baa78e.pdf",
+    "static/media/portfolio.jpg": "/react-portfolio/static/media/portfolio.22af6f72d7bb6509f5cf.jpg",
+    "static/media/JATE.jpeg": "/react-portfolio/static/media/JATE.c796abab6b97e09ffb77.jpeg",
+    "index.html": "/react-portfolio/index.html",
+    "main.ea30b06f.css.map": "/react-portfolio/static/css/main.ea30b06f.css.map",
+    "main.8c988903.js.map": "/react-portfolio/static/js/main.8c988903.js.map",
+    "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea30b06f.css",
+    "static/js/main.8c988903.js"
+  ]
+}
