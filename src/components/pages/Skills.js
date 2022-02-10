@@ -27,6 +27,8 @@ export default function Skills() {
           <li>Node</li>
           <li>MongoDB</li>
           <li>GraphQL</li>
+          <li>Sequelize</li>
+          <li>Mongoose</li>
         </ul>
       </div>
       <div className='mx-auto flex px-2 py-10 md:flex-row flex-col justify-center text-gray-300 '>

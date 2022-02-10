@@ -1,15 +1,6 @@
 
 const projects = [
   {
-    title: "My FrontYard",
-    subtitle: "Node.js, Express and MySQL",
-    description:
-      "My FrontYard is an intuitive app designed to allow hosts to advertise their residential events and allows other users to access event information and plan their journey to said events.",
-    image: "./images/MyFrontyard.jpeg",
-    link: "https://my-frontyard.herokuapp.com/",
-    github: "https://github.com/chaitra-srinivas/myfrontyard",
-  },
-  {
     title: "The Entertainment Hub",
     subtitle: "JavaScript and Third party APIs",
     description:
@@ -19,6 +10,26 @@ const projects = [
     github: "https://github.com/chaitra-srinivas/The-Entertainment-Hub",
   },
   {
+    title: "My FrontYard",
+    subtitle: "Node.js, Express and MySQL",
+    description:
+      "My FrontYard is an intuitive app designed to allow hosts to advertise their residential events and allows other users to access event information and plan their journey to said events.",
+    image: "./images/MyFrontyard.jpeg",
+    link: "https://my-frontyard.herokuapp.com/",
+    github: "https://github.com/chaitra-srinivas/myfrontyard",
+  },
+  {
+    title: "Social Stories",
+    subtitle: "MERN Stack",
+    description:
+      "The Social Stories application aims to provide templates for commonly discussed concepts using which one can customize and develop a story with little effort.",
+    image: "./images/homepageUI.png",
+    link: "https://damp-gorge-33906.herokuapp.com/",
+    github: "https://github.com/chaitra-srinivas/Social-Stories",
+  },
+ 
+  
+  {
     title: "Tech Talk",
     subtitle: "JavaScript, Express, MySQL and Handlebars",
     description:
@@ -27,15 +38,7 @@ const projects = [
     link: "https://tech-talk-21.herokuapp.com/",
     github: "https://github.com/chaitra-srinivas/Tech-Blog",
   },
-  {
-    title: "Text Editor",
-    subtitle: "JavaScript, Express, IndexedDB and Webpack",
-    description:
-      "Text Editor is a single page web application that runs in the browser and meets the PWA criteria. The application is installable and can function offline.",
-    image: "./images/JATE.jpeg",
-    link: "https://sleepy-beach-16739.herokuapp.com/",
-    github: "https://github.com/chaitra-srinivas/Text-Editor",
-  },
+ 
   {
     title: "README Generator",
     subtitle: "JavaScript, Node.js and Inquirer package",
