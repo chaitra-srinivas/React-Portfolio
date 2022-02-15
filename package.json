@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://chaitra-srinivas.github.io/react-portfolio",
+  "homepage": "https://chaitra-srinivas.github.io/react-portfolio",
   "dependencies": {
     "@mui/material": "^5.2.8",
     "@tailwindcss/forms": "^0.4.0",
