@@ -126,6 +126,18 @@ function Contact() {
           </div>
         )}
       </form>
+      <div
+        id='email-section'
+        className='px-5 pt-6 pb-3  text-gray-400 text-sm font-bold mb-2'>
+        Alternatively, you can reach me at{" "}
+        <a
+        className="text-gray-100 text-md font-bolder"
+          href='mailto:cmurthy.dev@gmail.com'
+          target={"_blank"}
+          rel='noreferrer noopener'>
+          cmurthy.dev@gmail.com
+        </a>
+      </div>
     </section>
   );
 }
