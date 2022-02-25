@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.ea30b06f.css",
-    "main.js": "/react-portfolio/static/js/main.a695922d.js",
+    "main.css": "/react-portfolio/static/css/main.5cf2133c.css",
+    "main.js": "/react-portfolio/static/js/main.282f253f.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/MyFrontyard.png": "/react-portfolio/static/media/MyFrontyard.0a81c26ef487fac01e47.png",
     "static/media/EntertainementHub.png": "/react-portfolio/static/media/EntertainementHub.dea0fb1afbd4e326bf7b.png",
@@ -17,16 +17,16 @@
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.53c6d8a5063137fc66a8.png",
     "static/media/WeatherDashboard.jpeg": "/react-portfolio/static/media/WeatherDashboard.302aa8e3974eb776cc92.jpeg",
     "static/media/Smiling.png": "/react-portfolio/static/media/Smiling.8af23bd28583c4cc1f1b.png",
-    "static/media/ChaitraSrinivasamurthy.pdf": "/react-portfolio/static/media/ChaitraSrinivasamurthy.7c0f1f49ec4dc917a897.pdf",
+    "static/media/ChaitraSrinivasamurthy.pdf": "/react-portfolio/static/media/ChaitraSrinivasamurthy.d781745671289c16cd4b.pdf",
     "static/media/portfolio.jpg": "/react-portfolio/static/media/portfolio.22af6f72d7bb6509f5cf.jpg",
     "static/media/JATE.jpeg": "/react-portfolio/static/media/JATE.c796abab6b97e09ffb77.jpeg",
     "index.html": "/react-portfolio/index.html",
-    "main.ea30b06f.css.map": "/react-portfolio/static/css/main.ea30b06f.css.map",
-    "main.a695922d.js.map": "/react-portfolio/static/js/main.a695922d.js.map",
+    "main.5cf2133c.css.map": "/react-portfolio/static/css/main.5cf2133c.css.map",
+    "main.282f253f.js.map": "/react-portfolio/static/js/main.282f253f.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea30b06f.css",
-    "static/js/main.a695922d.js"
+    "static/css/main.5cf2133c.css",
+    "static/js/main.282f253f.js"
   ]
 }
