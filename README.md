@@ -49,19 +49,24 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 - [Overview](#overview)
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
+- [Deployed application](#deployed-application)
 - [Questions](#questions)
 - [License](#license)
 
-   ## Questions
+## Deployed Application
 
-  For any questions regarding the project please visit my
-  GitHub Profile @
-  [chaitra-srinivas](https://github.com/chaitra-srinivas)
-  or you can reach me @ cmurthy.dev@gmail.com
+[Portfolio](https://chaitra-srinivas.github.io/react-portfolio/)
 
-  ## License
+## Questions
 
-  [MIT](https://opensource.org/licenses/MIT)
-  This application is convered under the MIT License.
+For any questions regarding the project please visit my
+GitHub Profile @
+[chaitra-srinivas](https://github.com/chaitra-srinivas)
+or you can reach me @ cmurthy.dev@gmail.com
 
-  Copyright © 2021 Chaitra Srinivasamurthy
+## License
+
+[MIT](https://opensource.org/licenses/MIT)
+This application is convered under the MIT License.
+
+Copyright © 2021 Chaitra Srinivasamurthy
