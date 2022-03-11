@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.5cf2133c.css",
-    "main.js": "/react-portfolio/static/js/main.0bc2d8bc.js",
+    "main.js": "/react-portfolio/static/js/main.6f6b1f65.js",
     "static/js/787.8c081f57.chunk.js": "/react-portfolio/static/js/787.8c081f57.chunk.js",
     "static/media/MyFrontyard.png": "/react-portfolio/static/media/MyFrontyard.0a81c26ef487fac01e47.png",
     "static/media/EntertainementHub.png": "/react-portfolio/static/media/EntertainementHub.dea0fb1afbd4e326bf7b.png",
@@ -17,16 +17,16 @@
     "static/media/JATE.png": "/react-portfolio/static/media/JATE.53c6d8a5063137fc66a8.png",
     "static/media/WeatherDashboard.jpeg": "/react-portfolio/static/media/WeatherDashboard.302aa8e3974eb776cc92.jpeg",
     "static/media/Smiling.png": "/react-portfolio/static/media/Smiling.8af23bd28583c4cc1f1b.png",
-    "static/media/ChaitraSrinivasamurthy.pdf": "/react-portfolio/static/media/ChaitraSrinivasamurthy.85edadc4bf1dac293339.pdf",
     "static/media/portfolio.jpg": "/react-portfolio/static/media/portfolio.22af6f72d7bb6509f5cf.jpg",
     "static/media/JATE.jpeg": "/react-portfolio/static/media/JATE.c796abab6b97e09ffb77.jpeg",
+    "static/media/ChaitraSrinivasamurthy.pdf": "/react-portfolio/static/media/ChaitraSrinivasamurthy.ed90208936e262f39908.pdf",
     "index.html": "/react-portfolio/index.html",
     "main.5cf2133c.css.map": "/react-portfolio/static/css/main.5cf2133c.css.map",
-    "main.0bc2d8bc.js.map": "/react-portfolio/static/js/main.0bc2d8bc.js.map",
+    "main.6f6b1f65.js.map": "/react-portfolio/static/js/main.6f6b1f65.js.map",
     "787.8c081f57.chunk.js.map": "/react-portfolio/static/js/787.8c081f57.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf2133c.css",
-    "static/js/main.0bc2d8bc.js"
+    "static/js/main.6f6b1f65.js"
   ]
 }
